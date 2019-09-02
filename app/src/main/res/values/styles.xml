@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="backButton">
+            <item name="android:background">@mipmap/back</item>
+            <item name="android:layout_height">20dp</item>
+            <item name="android:layout_width">20dp</item>
+            <item name="android:layout_marginTop">10dp</item>
+            <item name="android:layout_marginLeft">10dp</item>
+            <item name="android:gravity">center_vertical</item>
+    </style>
+
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="总资产（元）"
+    android:textSize="@dimen/myZhSize"
+    android:textColor="@color/titlecolor"
+    <style name="myZhText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/myZhSize</item>
+        <item name="android:textColor">@color/titlecolor</item>
+    </style>
+
+</resources>

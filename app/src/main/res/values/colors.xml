@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name= "main">#9E40FF</color>
+    <color name= "main_pressed">#7000EB</color>
+    <color name="modulecolor">#8484F5</color>
+    <color name="titlecolor">#FFFFFF</color>
+    <color name="subtitlecolor">#DBDBFF</color>
+    <color name= "black">#000000</color>
+    <color name="bottomcolor">#E4FDFDFD</color>
+    <color name="subtitledarkercolor">#A1A1AA</color>
+    <color name="highlighttext">#FF7043</color>
+    <color name="exitcolor">#FF3030</color>
+    <color name="background">#F0F0F2</color>
+    <color name="settingTitleColor">#98A5AB</color>
+    <color name="settingSubtitleColor">#607D8B</color>
+    <color name="myButtonTextColor">#03A9F4</color>
+    <color name="increColor">#DC143C</color>
+    <color name="decreColor">#3CB371</color>
+</resources>
