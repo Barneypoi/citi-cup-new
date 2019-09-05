@@ -2,8 +2,8 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="50dp"
-    android:background="@color/main">
+    android:layout_height="35dp"
+    android:background="@color/darkgrey">
 
     <Button
         android:id="@+id/button5"
@@ -18,7 +18,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="请在activity中设置标题"
-        android:textColor="@color/titlecolor"
+        android:textColor="@color/white"
         android:textSize="14sp" />
 
 </RelativeLayout>

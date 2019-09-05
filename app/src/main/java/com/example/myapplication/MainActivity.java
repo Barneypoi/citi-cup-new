@@ -135,7 +135,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
                 break;
             case 2:
                 if (mFragAddress == null) {
-                    mFragAddress = new WDFragment();
+                    mFragAddress = new PersonalInfoFragment();
                     transaction.add(R.id.id_content, mFragAddress);
                 } else {
                     transaction.show(mFragAddress);

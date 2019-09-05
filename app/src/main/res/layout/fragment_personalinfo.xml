@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/block_personinfo"/>
+
+    <Button
+        android:id="@+id/btn_checkorder"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="查看订单"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black"/>
+    <Button
+        android:id="@+id/btn_personinfo_contactserv"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="联系客服"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:paddingLeft="5dp"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black"/>
+    <Button
+        android:id="@+id/btn_personinfo_problem"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="常见问题"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:paddingLeft="5dp"
+    />
+    <Button
+        android:id="@+id/btn_personinfoexit"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="退出登录"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="@color/exit"
+        />
+
+</LinearLayout>
