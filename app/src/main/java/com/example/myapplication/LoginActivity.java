@@ -28,4 +28,7 @@ public class LoginActivity extends AppCompatActivity {
         });
 
     }
+    //loading(){
+       // webview
+    //}
 }
